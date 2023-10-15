@@ -1,0 +1,13 @@
+
+.maintenance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+
+.link{
+    text-decoration: none !important;
+    color: rgb(254,193,7);
+}

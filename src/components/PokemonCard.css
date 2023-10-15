@@ -1,0 +1,31 @@
+/* aqui es para darle style a las cartas al momento de ser buscadas */
+.container-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.card-image {
+  width: 9rem !important; /* el important es para subescribir el style que viene por defect de la libreri */
+  height: 10rem;
+}
+
+.card-daddy {
+  width: 15rem;
+  min-height: 22rem;
+  max-height: 23rem;
+  background-color:rgba(245, 161, 5, 0.774) !important ;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 !important;
+  margin: 0;
+}
+
+.btn-card{
+    margin-top: 2rem;
+}

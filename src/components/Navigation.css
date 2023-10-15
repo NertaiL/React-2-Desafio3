@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:rgba(245, 161, 5, 0.774) !important ;
+   
+}
+
+.home-pokemon{
+    display: flex;
+    margin-right: 2rem;
+}
+
+.home{
+    margin-right: 1rem;
+}
+

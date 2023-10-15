@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-image: url('https://images3.alphacoders.com/273/273289.jpg');
+  background-size:cover;
+  background-position-y: -11rem;
+
+  
+}
+
+.App {
+  font-family: "Maitree", serif;
+  text-align: center;
+  color:black;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background: darkgray;
+  padding: 20px;
+  color: white;
+}
+
+.p-3 {
+  padding: 30px;
+}
+
+
+
+.active{
+  text-decoration: none;
+  color: aliceblue;
+}
+.inactive {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.pokenav {
+  width: 4rem;
+}
