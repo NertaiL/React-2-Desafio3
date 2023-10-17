@@ -8,7 +8,7 @@ const PokeProvider = ({children}) => {
     const [pokemons , setPokemons] = useState([])
     const [pokemonSelect, setPokemonSelect] = useState("")
     
-const getPoke = () =>{
+const getPoke = async () =>{
     axios
     .get(urlPikatchu)
     .then((response)=>{
@@ -23,6 +23,22 @@ const getPoke = () =>{
 useEffect(()=>{
     getPoke()
 },[])
+
+/* const getPoke = async () => {
+    try {
+        const response = await axios.get(urlPikatchu);
+        if (!response.status) {
+            throw new Error("Data not found");
+        }
+        setPokemons(response.data.results);
+    } catch (error) {
+        console.log(error.message);
+    }
+};
+
+useEffect(() => {
+    getPoke();
+}, []); */
     return (
         <PokeContext.Provider value={{pokemons, setPokemons, pokemonSelect, setPokemonSelect}}>
         {children}
